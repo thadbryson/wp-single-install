@@ -1,0 +1,21 @@
+{
+    "name": "thadbryson/wp-single-code",
+
+    "authors": [
+        {
+            "name":         "Thad Bryson",
+            "email":        "thadbry@gmail.com",
+            "homepage":     "http://thadbryson.co"
+        }
+    ],
+
+    "require": {
+        "symfony/console":      "2.5.*",
+    },
+
+    "autoload": {
+        "psr-4": {
+            "TCB\\": "src/"
+        }
+    }
+}
