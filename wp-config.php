@@ -6,7 +6,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Open the Wordpress config file here.
-require_once(__DIR__ . '/configs/' . $_SERVER['WP_SITE_CODE'] . '.php');
+require_once(__DIR__ . '/configs/' . getenv('WP_SITE_CODE') . '.php');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
